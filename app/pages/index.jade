@@ -1,0 +1,10 @@
+extends /blocks/layout-default/layout-default
+
+block head
+	- var pageTitle = 'Index';
+	+scripts(['FeatureGroup.LoadEvents.js'])
+
+
+block content
+	#map
+	#list
