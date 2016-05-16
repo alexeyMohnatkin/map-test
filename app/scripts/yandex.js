@@ -3,7 +3,7 @@ import $ from 'jquery';
 export default class YandexRoute {
 
 	constructor(layer) {
-		console.log(layer._yandex);
+		// console.log(layer._yandex);
 		this.map = layer._yandex;
 	}
 
